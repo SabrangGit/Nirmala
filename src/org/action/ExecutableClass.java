@@ -16,6 +16,7 @@ public class ExecutableClass {
 		Actions a=new Actions(d);
 		a.moveToElement(e).perform();
 		e.click();
+		System.out.println("tamilan");
 		
 	}
 }
